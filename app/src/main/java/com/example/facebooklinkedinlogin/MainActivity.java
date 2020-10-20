@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     GoogleApiClient googleApiClient;
     public static final String GMAIL_LOGIN = "gmail_login";
     ProgressDialog progressDialog;
-    public static final Integer SignIn_value = 1;
+    public static final int SignIn_value = 1;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
